@@ -1,0 +1,30 @@
+.container {
+	grid-template-columns: repeat(12, 102px [col-start]);
+	grid-template-rows: repeat(6, 20px [row-start]);
+	column-gap: 16px;
+	row-gap: 16px;
+}
+
+img {
+	display:inline-block;
+	max-width: 60vw;
+    padding: 20px;
+}
+body{
+	width: 100vw;
+    height: 100vh;
+	font-size: 20px;
+	font-family: gimlet-text, serif;
+	font-weight: 500;
+	font-style: normal;
+    line-height: 1.4;
+    max-width: 60%;
+}
+
+footer{
+    margin: 50px;
+    padding: 50px;
+    border-top: solid;
+    text-align: center;
+
+}
